@@ -1,0 +1,10 @@
+:root{
+    --height-nav__user : 200px;
+    --grey-color : #f7f7ff; 
+    --white-color: #fff;
+    --form-width : 568px;
+    --form-height :566px;
+}
+.active{
+    display: block !important;
+}
