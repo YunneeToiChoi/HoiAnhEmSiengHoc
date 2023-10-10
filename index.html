@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <title>AirBnB - Clone</title>
+</head>
+<body>
+    <div class="main">
+        <!-- Navbar -->
+        <div class="header">
+            <div class="grid wide">
+                <nav class="navbar row">
+                    <div class="nav-left col l-2">
+                        <a href="#" class="navbar__link">
+                            <img src="./assets/image/logo.png" alt="" class="navbar__img" width="120px" height="100%">
+                        </a>
+                    </div>
+                    <div class="nav-middle col l-8">
+                        <div class="navbar__box">
+                            <ul class="navbar__list">
+                                <li class="navbar__item"><a href="#" class="navbar__link">Địa điểm bất kỳ</a></li>
+                                <li class="navbar__item"><a href="#" class="navbar__link">Tuần bất kỳ</a></li>
+                                <li class="navbar__item"><a href="#" class="navbar__link navbar__link--no-bold">Thêm khách</a></li>
+                                <li class="navbar__item"><a href="#" class="navbar__link"><i class="navbar__icon fa-solid fa-magnifying-glass"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nav-right col l-2">
+                        <div class="navbar__box">
+                            <ul class="navbar__list">
+                                <li class="navbar__item"><a href="" class="navbar__link"><i class="navbar__icon navbar__icon--user fa-solid fa-bars"></i></a></li>
+                                <li class="navbar__item"><a href="" class="navbar__link"><i class="navbar__icon navbar__icon--user fa-solid fa-user"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- End Navbar -->
+        <!-- Menu -->
+        <div class="menu">
+            <div class="grid wide">
+                <div class="menu__container row">
+                    <div class="menu-left col l-9 m-12 c-12">
+                        <div class="menu__box menu__box--chosen">
+                            <img src="./assets/image/menu_1.jpg" width="26px" alt="" class="menu__img">
+                            <h4 class="menu__header">Phòng</h4>
+                        </div>
+                        <div class="menu__box ">
+                            <img src="./assets/image/menu_2.jpg" width="26px" alt="" class="menu__img">
+                            <h4 class="menu__header">Khung cảnh tuyệt vời</h4>
+                        </div>
+                        <div class="menu__box ">
+                            <img src="./assets/image/menu_3.jpg" width="26px" alt="" class="menu__img">
+                            <h4 class="menu__header">Nhà nhỏ</h4>
+                        </div>
+                        <div class="menu__box ">
+                            <img src="./assets/image/menu_4.jpg" width="26px" alt="" class="menu__img">
+                            <h4 class="menu__header">Chơi golf</h4>
+                        </div>
+                        <div class="menu__box ">
+                            <img src="./assets/image/menu_5.jpg" width="26px" alt="" class="menu__img">
+                            <h4 class="menu__header">Nhà dưới lòng đất</h4>
+                        </div>
+                        <div class="menu__box ">
+                            <img src="./assets/image/menu_6.jpg" width="26px" alt="" class="menu__img">
+                            <h4 class="menu__header">Dammuso</h4>
+                        </div>
+                    </div>
+                    <div class="menu-right col l-3 m-0 c-0">
+                        <div class="menu-right__box">
+                            <p class="menu__content">Hiển thị tổng trước thuế</p>
+                            <i class="menu__icon menu__icon--switch fa-solid fa-toggle-off"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Menu -->
+        <!-- Content -->
+        <div class="content">
+            <div class="grid wide">
+                <div class="content__container row">
+                    <div class="content__box col l-3 m-4 c-6">
+                        <div class="content-img__box">
+                            <div class="content__wishlist">
+                                <a href="#" class="content__link"><i class="content-wishlist__icon fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="content__page">
+                                <p class="content__transition">.<span class="content__transition--no-chosen">....</span></p>
+                            </div>
+                            <div class="content__arrow">
+                                <i class="content-arrow__icon fa-solid fa-angle-right"></i>
+                            </div>
+                            <a href="#" class="content__link">
+                                <img src="./assets/image/content_1.jpg" width="100%" height="100%" alt="" class="content__img">
+                            </a>
+                        </div>
+                        <div class="content__infomation">
+                            <div class="content__header">
+                                <p class="content__location">Torino, Ý</p>
+                                <p class="content__rate"><i class="content__icon fa-solid fa-star"></i>4,88</p>
+                            </div>
+                            <p class="content__owner">Chủ nhà: Carmela</p>
+                            <p class="content__date">Ngày 06 - Ngày 11 tháng 11</p>
+                            <p class="content__price">$50 / <span class="content__day">đêm</span></p>
+                        </div>
+                    </div>
+                    <div class="content__box col l-3 m-4 c-6">
+                        <div class="content-img__box">
+                            <div class="content__wishlist">
+                                <a href="#" class="content__link"><i class="content-wishlist__icon fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="content__page">
+                                <p class="content__transition">.<span class="content__transition--no-chosen">....</span></p>
+                            </div>
+                            <div class="content__arrow">
+                                <i class="content-arrow__icon fa-solid fa-angle-right"></i>
+                            </div>
+                            <a href="#" class="content__link">
+                                <img src="./assets/image/content_1.jpg" width="100%" height="100%" alt="" class="content__img">
+                            </a>
+                        </div>
+                        <div class="content__infomation">
+                            <div class="content__header">
+                                <p class="content__location">Torino, Ý</p>
+                                <p class="content__rate"><i class="content__icon fa-solid fa-star"></i>4,88</p>
+                            </div>
+                            <p class="content__owner">Chủ nhà: Carmela</p>
+                            <p class="content__date">Ngày 06 - Ngày 11 tháng 11</p>
+                            <p class="content__price">$50 / <span class="content__day">đêm</span></p>
+                        </div>
+                    </div>
+                    <div class="content__box col l-3 m-4 c-6">
+                        <div class="content-img__box">
+                            <div class="content__wishlist">
+                                <a href="#" class="content__link"><i class="content-wishlist__icon fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="content__page">
+                                <p class="content__transition">.<span class="content__transition--no-chosen">....</span></p>
+                            </div>
+                            <div class="content__arrow">
+                                <i class="content-arrow__icon fa-solid fa-angle-right"></i>
+                            </div>
+                            <a href="#" class="content__link">
+                                <img src="./assets/image/content_1.jpg" width="100%" height="100%" alt="" class="content__img">
+                            </a>
+                        </div>
+                        <div class="content__infomation">
+                            <div class="content__header">
+                                <p class="content__location">Torino, Ý</p>
+                                <p class="content__rate"><i class="content__icon fa-solid fa-star"></i>4,88</p>
+                            </div>
+                            <p class="content__owner">Chủ nhà: Carmela</p>
+                            <p class="content__date">Ngày 06 - Ngày 11 tháng 11</p>
+                            <p class="content__price">$50 / <span class="content__day">đêm</span></p>
+                        </div>
+                    </div>
+                    <div class="content__box col l-3 m-4 c-6">
+                        <div class="content-img__box">
+                            <div class="content__wishlist">
+                                <a href="#" class="content__link"><i class="content-wishlist__icon fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="content__page">
+                                <p class="content__transition">.<span class="content__transition--no-chosen">....</span></p>
+                            </div>
+                            <div class="content__arrow">
+                                <i class="content-arrow__icon fa-solid fa-angle-right"></i>
+                            </div>
+                            <a href="#" class="content__link">
+                                <img src="./assets/image/content_1.jpg" width="100%" height="100%" alt="" class="content__img">
+                            </a>
+                        </div>
+                        <div class="content__infomation">
+                            <div class="content__header">
+                                <p class="content__location">Torino, Ý</p>
+                                <p class="content__rate"><i class="content__icon fa-solid fa-star"></i>4,88</p>
+                            </div>
+                            <p class="content__owner">Chủ nhà: Carmela</p>
+                            <p class="content__date">Ngày 06 - Ngày 11 tháng 11</p>
+                            <p class="content__price">$50 / <span class="content__day">đêm</span></p>
+                        </div>
+                    </div>
+                    <div class="content__box col l-3 m-4 c-6">
+                        <div class="content-img__box">
+                            <div class="content__wishlist">
+                                <a href="#" class="content__link"><i class="content-wishlist__icon fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="content__page">
+                                <p class="content__transition">.<span class="content__transition--no-chosen">....</span></p>
+                            </div>
+                            <div class="content__arrow">
+                                <i class="content-arrow__icon fa-solid fa-angle-right"></i>
+                            </div>
+                            <a href="#" class="content__link">
+                                <img src="./assets/image/content_1.jpg" width="100%" height="100%" alt="" class="content__img">
+                            </a>
+                        </div>
+                        <div class="content__infomation">
+                            <div class="content__header">
+                                <p class="content__location">Torino, Ý</p>
+                                <p class="content__rate"><i class="content__icon fa-solid fa-star"></i>4,88</p>
+                            </div>
+                            <p class="content__owner">Chủ nhà: Carmela</p>
+                            <p class="content__date">Ngày 06 - Ngày 11 tháng 11</p>
+                            <p class="content__price">$50 / <span class="content__day">đêm</span></p>
+                        </div>
+                    </div>
+                    <div class="content__box col l-3 m-4 c-6">
+                        <div class="content-img__box">
+                            <div class="content__wishlist">
+                                <a href="#" class="content__link"><i class="content-wishlist__icon fa-regular fa-heart"></i></a>
+                            </div>
+                            <div class="content__page">
+                                <p class="content__transition">.<span class="content__transition--no-chosen">....</span></p>
+                            </div>
+                            <div class="content__arrow">
+                                <i class="content-arrow__icon fa-solid fa-angle-right"></i>
+                            </div>
+                            <a href="#" class="content__link">
+                                <img src="./assets/image/content_1.jpg" width="100%" height="100%" alt="" class="content__img">
+                            </a>
+                        </div>
+                        <div class="content__infomation">
+                            <div class="content__header">
+                                <p class="content__location">Torino, Ý</p>
+                                <p class="content__rate"><i class="content__icon fa-solid fa-star"></i>4,88</p>
+                            </div>
+                            <p class="content__owner">Chủ nhà: Carmela</p>
+                            <p class="content__date">Ngày 06 - Ngày 11 tháng 11</p>
+                            <p class="content__price">$50 / <span class="content__day">đêm</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__add">
+                    <p class="content__text">Tiếp tục khám phá danh mục phòng</p>
+                    <button class="content__btn">Hiển thị thêm</button>
+                </div>
+            </div>
+        </div>
+        <!-- End Content -->
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="grid wide">
+                <h2 class="footer__header">Nguồn cảm hứng cho những kỳ nghỉ sau này</h2>
+                <ul class="footer__list">
+                    <li class="footer__item footer__item--chosen"><a href="" class="footer__link footer__link--chosen">Phổ biến</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Văn hoá và nghệ thuật</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Ngoài trời</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Dãy núi</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Bãi biển</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Danh mục</a></li>
+                    <li class="footer__item"><a href="" class="footer__link">Những điều nên trải nghiệm</a></li>
+                </ul>
+                <div class="footer__container row">
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                    <div class="footer__box col l-2 m-3 c-4">
+                        <h4 class="footer-box__header">Canmore</h4>
+                        <p class="footer__text">Căn hộ cho thuê</p>
+                    </div>
+                </div>
+                <div class="footer-under__container row">
+                    <div class="footer-under__box col l-4 m-4 c-6">
+                        <h5 class="footer__box-header">Hỗ trợ</h5>
+                        <ul class="footer-under__list">
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Trung tâm trợ giúp</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">AirCover</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Chống phân biệt đối xử</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Hỗ trợ người khuyết tật</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Các tùy chọn hủy</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Báo cáo lo ngại của khu dân cư</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-under__box col l-4 m-4 c-6">
+                        <h5 class="footer__box-header">Đón tiếp khách</h5>
+                        <ul class="footer-under__list">
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Đón tiếp khách</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">AirCover cho Chủ nhà</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Tài nguyên về đón tiếp khách</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Diễn đàn cộng đồng</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Đón tiếp khách có trách nhiệm</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-under__box col l-4 m-4 c-6">
+                        <h5 class="footer__box-header">Airbnb</h5>
+                        <ul class="footer-under__list">
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Trang tin tức</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Tính năng mới</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Cơ hội nghề nghiệp</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Nhà đầu tư</a></li>
+                            <li class="footer-under__item"><a href="" class="footer-under__link">Chỗ ở khẩn cấp Airbnb.org</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__powered row">
+                    <div class="footer__powered-left col l-9 m-12 c-12">
+                        <p class="footer__text">© 2023 Airbnb, Inc.</p>
+                        <a href="" class="footer-powered__link">Quyền riêng tư</a>
+                        <a href="" class="footer-powered__link">Điều khoản</a>
+                        <a href="" class="footer-powered__link">Sơ đồ trang web</a>
+                    </div>
+                    <div class="footer__powered-right col l-3 m-12 c-12">
+                        <i class="footer__icon fa-solid fa-globe"></i>
+                        <a href="" class="footer-powered__link footer-powered__link--bold">Tiếng Việt</a>
+                        <span class="dollar">$</span>
+                        <a href="" class="footer-powered__link footer-powered__link--no-margin footer-powered__link--bold">USD</a>
+                        <a href="" class="footer-powered__link footer-powered__link--icon footer-powered__link--bold"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="" class="footer-powered__link footer-powered__link--icon footer-powered__link--bold"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="" class="footer-powered__link footer-powered__link--icon footer-powered__link--bold"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
