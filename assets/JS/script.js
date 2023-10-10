@@ -18,5 +18,15 @@ menu.addEventListener('click',remove);
 
 const register = userParent.querySelector('.user-header__form--navRegister')
 
+////////////////////////////////// Mo form
+const overPlayForm= document.querySelector('.form-vadition--overplay')
 
+// register 
+const registerNav = document.querySelector('.user-header__form--navRegister')
 
+registerNav.addEventListener('click', ()=> {overPlayForm.classList.add('active')})
+
+// close Form
+const closeForm = overPlayForm.querySelector('.vadition__header-icon')
+overPlayForm.addEventListener('click',()=>{overPlayForm.classList.remove('active')})
+closeForm.addEventListener('click',()=> {overPlayForm.classList.remove('active')})

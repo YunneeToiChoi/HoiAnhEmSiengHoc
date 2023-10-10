@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="/assets/css/form.css">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <title>AirBnB - Clone</title>
@@ -45,17 +46,16 @@
                                     </a>
                                 </li>
                             </ul>
-                            <div class="user-header__form--active">
-                                <div class="user-header__form-box">
-                                    <button class="user-header__form--navRegister">Sign In</button>
-                                    <button class="user-header__form--navLogin">Log in</button>
-                                    <hr></hr>
-                                    <button class="user-header__form--support">Airbnb your home</button>
-                                    <button class="user-header__form--support">Help Center</button>
+                                <div class="user-header__form--active">
+                                    <div class="user-header__form-box">
+                                        <button class="user-header__form--navRegister">Sign In</button>
+                                        <button class="user-header__form--navLogin">Log in</button>
+                                        <hr></hr>
+                                        <button class="user-header__form--support">Airbnb your home</button>
+                                        <button class="user-header__form--support">Help Center</button>
+                                    </div>
                                 </div>
-                            </div>
                         </div>
-                        
                     </div>
                 </nav>
             </div>
@@ -374,6 +374,62 @@
                 </div>
             </div>
         </footer>
+        <!--  VADITION -->
+      <div  class="form-vadition--overplay">
+        <div class="form-vadition__container">
+            <!--  icon  -->
+            <!-- BEGIN  header  -->
+            <div class="vadition__header pdlr24">
+                <i class="vadition__header-icon fa-solid fa-x"></i>
+                <header class="vadition__header-tittle">Log in or sign up</header>
+            </div>
+            <hr></hr>
+            <!--END HEADER  -->
+
+            <!-- BEGIN BOX  -->
+                <div class="vadition__box pd24">
+                    <h1 style="margin-bottom: 20px;" class="vadition__box-tittle">Welcome to Airbnb</h2>
+                    <form class="vadition__box-form">
+                        <div class="vadition__box-wrapper">
+                            <p class="vadition__box-tittle--input">Your Number Phone : </p>
+                            <input placeholder="Number Phone" type="number" class="vadition__box-numberPhone">
+                        </div>
+                        <div class="vadition__box-wrapper">
+                            <p class="vadition__box-tittle--input">Your Password : </p>
+                            <input placeholder="Password" type="password" class="vadition__box-password">
+                        </div>
+                        <div class="vadition__box-decripstion">
+                            We’ll call or text you to confirm your number. Standard message and data rates apply. 
+                            <p class="vadition__box-privacyPolity">Privacy Policy</p>
+                        </div>
+                        <button class="btn vadition__box-submit">Continue</button>
+                    </form>
+                    <div class="form-line"><hr><p>or</p><hr></div>
+                    <div class="vadition__box-connect ">
+                        <button type="submit" class="btn form--facebook">
+                            <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px;"><path fill="#1877F2" d="M32 0v32H0V0z"></path><path fill="#FFF" d="M22.94 16H18.5v-3c0-1.27.62-2.5 2.6-2.5h2.02V6.56s-1.83-.31-3.58-.31c-3.65 0-6.04 2.21-6.04 6.22V16H9.44v4.63h4.06V32h5V20.62h3.73l.7-4.62z"></path></svg>
+                            <span>Continue with Facebook</span>
+                        </button>
+                        <button type="submit" class="btn form--google">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px;"><path fill="#4285f4" d="M24.12 25c2.82-2.63 4.07-7 3.32-11.19H16.25v4.63h6.37A5.26 5.26 0 0 1 20.25 22z"></path><path fill="#34a853" d="M5.62 21.31A12 12 0 0 0 24.12 25l-3.87-3a7.16 7.16 0 0 1-10.69-3.75z"></path><path fill="#fbbc02" d="M9.56 18.25c-.5-1.56-.5-3 0-4.56l-3.94-3.07a12.08 12.08 0 0 0 0 10.7z"></path><path fill="#ea4335" d="M9.56 13.69c1.38-4.32 7.25-6.82 11.19-3.13l3.44-3.37a11.8 11.8 0 0 0-18.57 3.43l3.94 3.07z"></path></svg>
+                            <span>Continue with Google</span>
+                        </button>
+                        <button type="submit" class="btn form--apple">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="presentation" aria-hidden="true" focusable="false" style="height: 20px; width: 20px; display: block; fill: currentcolor;"><path d="m13.3 2.1a5.1 5.1 0 0 1 3.8-2.1 5.1 5.1 0 0 1 -1.2 3.8 4.1 4.1 0 0 1 -3.6 1.7 4.5 4.5 0 0 1 1-3.4zm-5 3.7c-2.8 0-5.8 2.5-5.8 7.3 0 4.9 3.5 10.9 6.3 10.9 1 0 2.5-1 4-1s2.6.9 4 .9c3.1 0 5.3-6.4 5.3-6.4a5.3 5.3 0 0 1 -3.2-4.9 5.2 5.2 0 0 1 2.6-4.5 5.4 5.4 0 0 0 -4.7-2.4c-2 0-3.5 1.1-4.3 1.1-.9 0-2.4-1-4.2-1z"></path></svg>
+                            <span>Continue with Apple</span>
+                        </button>
+                        <button type="submit" class="btn form--email">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; height: 20px; width: 20px; fill: currentcolor;"><path d="M30.51 5.88A5.06 5.06 0 0 0 26 3H6a5.06 5.06 0 0 0-4.51 2.88A4.94 4.94 0 0 0 1 8v16a5 5 0 0 0 5 5h20a5 5 0 0 0 5-5V8a4.94 4.94 0 0 0-.49-2.12ZM6 5h20a2.97 2.97 0 0 1 1.77.6L17.95 14a2.98 2.98 0 0 1-3.9 0L4.23 5.6A2.97 2.97 0 0 1 6 5Zm23 19a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3V8a2.97 2.97 0 0 1 .1-.74l9.65 8.27a4.97 4.97 0 0 0 6.5 0l9.65-8.27A2.97 2.97 0 0 1 29 8Z"></path></svg>
+                            <span>Continue with Email</span>
+                        </button>
+
+                       
+                    </div>
+                </div>  
+
+            <!-- END BOx -->
+        </div>
+    </div>
     </div>
     <script src="assets/JS/script.js"></script>
 </body>

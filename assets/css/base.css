@@ -3,8 +3,28 @@
     --grey-color : #f7f7ff; 
     --white-color: #fff;
     --form-width : 568px;
-    --form-height :566px;
+    --form-height :357px;
+    --color-magic : #e61e4d ;
+    --colorBackground-magic : background-image ( circle at center,var(--ihf-tp-q) 0%,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100% );
 }
 .active{
     display: block !important;
+}
+.pdlr24{
+    padding: 0 24px;
+}
+.pd24{
+    padding: 24px;;
+}
+.mgt12{
+    margin-top: 12px;
+}
+.btn{
+    height: 48px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+  
 }

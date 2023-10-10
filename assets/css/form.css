@@ -1,0 +1,141 @@
+.form-vadition--overplay{
+    z-index: 8;
+    background-color: grey;
+    display: flex;
+    top:-190px;
+    left:0;
+    right:0;
+    bottom: 0;
+    position: fixed;
+    display: none;
+
+}
+.form-vadition__container{
+    width: var(--form-width);
+    height: 550px;
+    background-color: var(--white-color);
+    margin:auto ;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top : 18%;
+    z-index: 10;
+
+  
+
+  
+}
+.vadition__header-icon{
+    cursor: pointer;
+    padding : 8px;
+}
+.vadition__box {
+}
+.form-line{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 24px 0;
+}
+.form-line p{
+    font-size: 1.2rem;
+    margin : 0 12px;
+}
+.form-line>hr{
+    width: 50%;
+    height: 0;
+    
+}
+.vadition__header{
+    font-size: 1.8rem;
+    font-weight: 600;
+    height: 64px;
+    display: flex;    
+    align-items: center;
+    text-align: center;
+
+}
+.vadition__header-tittle{
+    width: 100%;
+    flex: 1;
+}
+
+/*  END FORM HEADER  */
+
+/* BEGIN BOX FORM */
+.vadition__box{
+    width: 100%;
+   height: 500px; 
+   scroll-behavior: smooth;
+   overflow-y: scroll;
+    background-color: var(--white-color);
+}
+.vadition__box-tittle{
+
+}
+.vadition__box-form{
+
+}
+.vadition__box-wrapper{
+    margin-top: 12px;
+}
+.vadition__box-wrapper>input{
+    height: 52px;
+    width: 100%;
+    padding-left: 12px;
+}
+.vadition__box-tittle--input{
+    margin: 12px 0;
+    font-size: 1.3rem;
+}
+.vadition__box-numberPhone{
+
+}
+.vadition__box-password{
+
+}
+.vadition__box-decripstion{
+    font-size: 1.2rem;
+    margin: 12px 0 20px 0;
+    line-height: 2rem;
+}
+.vadition__box-privacyPolity{
+    text-decoration: underline;
+    
+}
+.vadition__box-submit{
+    background-color: var(--color-magic);
+    color : var(--white-color);
+    font-weight: 600;
+    font-size: 1.4rem;
+
+}
+/* END BOX FORM */
+
+
+.vadition__box-top{
+
+}
+/* BTN FORM CONNECT */
+.vadition__box-connect{
+
+    
+
+}
+.vadition__box-connect button{
+    border-radius : 5px ;
+    border: solid 1px;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: var(--white-color);
+}
+.vadition__box-connect span{
+   flex:1;
+}
+.vadition__box-connect svg{
+    margin-left : 24px;
+}
+
+
+
